@@ -13,3 +13,15 @@ Have some old Slide Photos laying around (Dia photos in german)? Or some old fam
 Slide photos were a popular cost effective way to record images in the 50 and 60s. But this type of photo has quickly fallen out of popularity with the rise of the digital image and the smart-phone. This relatively quick transition and shift in technology left many families with stacks of old slide photos and no good way of digitalizing them.
 This paper attempts the restoration and digitalization of these images as well as the improvement of the quality of these images, without having to invest in a dedicated hardware device for this purpose.
 Additionally we find it important to estimate the date of taking the photo as it gives important information to the owner.
+
+## Pipeline
+
+There's a number of steps we have to follow to achieve good quality results:
+
+1. First the diorama photo should be captured while it is well backlit.
+2. We need to locate and crop out the important area of the diorama (the small image).
+3. Correct the orientation of the image.
+3. Correct colors of image (dias are generally faded and have yellow-ish colors)
+4. Improve resolution of image
+
+
