@@ -24,4 +24,6 @@ There's a number of steps we have to follow to achieve good quality results:
 3. Correct colors of image (dias are generally faded and have yellow-ish colors)
 4. Improve resolution of image
 
+## Part 1: ROI Detection
 
+The first problem we need to consider is locating the important part of the slide image within an image. We have attempted to locate the ROI with morphological computer vision techniques, but only with mild success
