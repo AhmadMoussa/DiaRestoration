@@ -47,3 +47,7 @@ Other techniques [here](https://stackoverflow.com/questions/56905592/automatic-c
 This step is largely optional and depends on the type of camera you used to capture the DIA image. In my case the resolution of the captured images was already significantly high.
 
 Some candidate methods for performing this super-resolution [LFFN (Lightweight Feature Fusion Network for Single Image Super-Resolution)](https://github.com/qibao77/LFFN)
+
+## Part 4: Image Age Estimation:
+
+I felt that this was an additional feature that could be important for these types of images. A lot of these images are unlabelled and could be taken in any time period. Estimating the year when an image was taken can provide additional important context.
