@@ -41,3 +41,9 @@ The detected ROI might not always be perfectly perpendicular with respect to the
 Learn more about it [here](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_histograms/py_histogram_equalization/py_histogram_equalization.html)
 
 Other techniques [here](https://stackoverflow.com/questions/56905592/automatic-contrast-and-brightness-adjustment-of-a-color-photo-of-a-sheet-of-pape) 
+
+### 3.2 Upscaling and/or SR (Super Resolution):
+
+This step is largely optional and depends on the type of camera you used to capture the DIA image. In my case the resolution of the captured images was already significantly high.
+
+Some candidate methods for performing this super-resolution [LFFN (Lightweight Feature Fusion Network for Single Image Super-Resolution)](https://github.com/qibao77/LFFN)
