@@ -33,3 +33,11 @@ We found that the best way to detect the bounding box of the ROI was using a con
 ## Part 2: Perspective Transform
 
 The detected ROI might not always be perfectly perpendicular with respect to the capturing camera. A perspective Transform can help alleviate a skewed or slanted image.
+
+## Part 3: Image enhancement
+
+### 3.1: CLAHE (Contrast Limited Adaptive Histogram Equalization)
+
+Learn more about it [here](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_histograms/py_histogram_equalization/py_histogram_equalization.html)
+
+Other techniques [here](https://stackoverflow.com/questions/56905592/automatic-contrast-and-brightness-adjustment-of-a-color-photo-of-a-sheet-of-pape) 
