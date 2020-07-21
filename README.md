@@ -26,4 +26,10 @@ There's a number of steps we have to follow to achieve good quality results:
 
 ## Part 1: ROI Detection
 
-The first problem we need to consider is locating the important part of the slide image within an image. We have attempted to locate the ROI with morphological computer vision techniques, but only with mild success
+The first problem we need to consider is locating the important part of the slide image within an image. We have attempted to locate the ROI with morphological computer vision techniques, but only with mild success.
+
+We found that the best way to detect the bounding box of the ROI was using a convolutional neural network that we trained on manually annotated counding box corner coordinates. The dataset consisted of around 1000 images, and we performed data augmentation by randomly shifting/translating the image up/down/left/right along with the bounding box coordinates by a random amount (such that the ROI is still in the image). We get a detection accuracy of {insert accuracy here}. It works well if the image is aligned with borders of the camera.
+
+## Part 2: Perspective Transform
+
+The detected ROI might not always be perfectly perpendicular with respect to the capturing camera. A perspective Transform can help alleviate a skewed or slanted image.
