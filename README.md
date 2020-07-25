@@ -31,7 +31,9 @@ There's a number of steps we have to follow to achieve good quality results:
 
 The first problem we need to consider is locating the important part of the slide image within an image. Even though it is not a necessary step and could be done by manually alligning the image with camera. But object detection is one of the most popular problems in computer vision and could be a nice feature for realm time detection. We have attempted to locate the ROI with morphological computer vision techniques, but only with mild success.
 
-We found that the best way to detect the bounding box of the ROI was using a convolutional neural network that we trained on manually annotated counding box corner coordinates. The dataset consisted of around 1000 images, and we performed data augmentation by randomly shifting/translating the image up/down/left/right along with the bounding box coordinates by a random amount (such that the ROI is still in the image). We get a detection accuracy of {insert accuracy here}. It works well if the image is aligned with borders of the camera.
+We found that the best way to detect the bounding box of the ROI was using a convolutional neural network that we trained on manually annotated counding box corner coordinates. The dataset consisted of around 1000 images, and we performed data augmentation by randomly shifting/translating the image up/down/left/right along with the bounding box coordinates by a random amount (such that the ROI is still in the image). We get a detection accuracy of {insert accuracy here}.
+
+A relatively simple CNN works very well for this purpose, consisting of 8 convolutional layers and a fully connected neural network at the end.
 
 ## Part 2 - Perspective Transform:
 
